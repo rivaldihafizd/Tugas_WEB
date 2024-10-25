@@ -1,0 +1,58 @@
+<style>
+button {
+    background-color: greenyellow;
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: 1px solid white;
+    box-shadow: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover{
+    letter-spacing: 0.25em;
+    transform: scale(1.025);
+    box-shadow: none;
+}
+</style>
+<style>
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 550px;
+}
+    </style>			
+<div class="container">
+<button type="submit" onclick="klik()">Simpan</button> 
+</div>
+
+<script>
+function klik() {
+    return alert("Data berhasil disimpan");
+}
+</script>
+</body>
+<center>
+<title>Membuat menjadi bulat</title>
+<style>
+    .box {
+        margin: 5px auto;
+        padding: 20px auto;
+        border: 3px solid lightgrey;
+        width: 250px;
+        height: 250px;
+        border-radius: 10%;
+    }	
+</style>
+<style>
+    img {
+        height: 230px;
+        width: 230px;
+        margin: 10px auto;
+        border-radius: 50%;
+        }
+</style>
